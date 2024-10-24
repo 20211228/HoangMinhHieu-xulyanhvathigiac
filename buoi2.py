@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image in grayscale
-image = cv2.imread('phongcanh.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('anhthe.png', cv2.IMREAD_GRAYSCALE)
 
 # Apply Sobel operator
 sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)
