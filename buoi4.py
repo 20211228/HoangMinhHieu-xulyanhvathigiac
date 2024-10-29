@@ -178,3 +178,8 @@ results.append(train_and_evaluate_decision_tree(X_train, y_train, X_test, y_test
 results_df = pd.DataFrame(results)
 print("\nComparison of Models:")
 print(results_df)
+
+# Xuất kết quả ra file CSV
+output_file = 'model_evaluation_results.csv'
+results_df.to_csv(output_file, index=False)
+print(f"\nResults have been saved to {output_file}")
