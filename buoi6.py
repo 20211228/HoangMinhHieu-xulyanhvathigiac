@@ -61,7 +61,7 @@ def k_means(data, k, max_iterations=100, tolerance=1e-4):
 
 
 # Đọc ảnh và chuyển đổi thành mảng pixel
-image = cv2.imread('animals.png')
+image = cv2.imread('ggmap.png')
 if image is None:
     print("Không tìm thấy ảnh.")
 else:
